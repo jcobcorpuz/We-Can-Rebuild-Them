@@ -100,7 +100,7 @@ public class AVLTree {
     }
 
     public Node deleteNode(Node node, int key){
-        if(node == null) {
+        if(node == null){
             return null;
         }
         if (key < node.key) {
